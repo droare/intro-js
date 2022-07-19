@@ -5,9 +5,7 @@ const salarioDiario = 172.87;
 let diasTrabajados = Number(prompt(`Por favor ingrese el numero de dias que trabajo el empleado `));
 
 function Salario(salarioDiario,diasTrabajados){
-
     return salarioDiario*diasTrabajados;
-
 }
 
 document.write(`El salario del trabajador es de: ${Salario(salarioDiario,diasTrabajados)}`);
