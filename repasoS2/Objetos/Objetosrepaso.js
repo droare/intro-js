@@ -19,6 +19,8 @@ Object.freeze(miObjeto);
 
 //Profundizar aprendizaje
 //Inmutabilidad
+
+// El concepto de Inmutabilidad es sencillo y poderoso. Un valor inmutable es algo que no puede ser cambiado.
 //Hoisting
 //Azucar Sintactica JS
 //Coertion
