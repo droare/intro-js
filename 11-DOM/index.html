@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="">
+
+    <title>DOM</title>
+
+    <script defer src="./DOM.js"></script>
+
+</head>
+<body>
+    
+<header>
+
+<h1>Registro en nuestra app</h1>
+
+</header>
+<main>
+
+<section>
+<h2>Datos basicos</h2>
+
+<label for="">Nombres</label>
+<input type="txtNombre" type = "text">
+<label for="">Apellidos</label>
+<input type="txtApellidos" type = "text">
+<label for="">Fecha de nacimiento</label>
+<input type="txtFechaNac" type = "date">
+
+</section>
+<section>
+<h3>Otros Datos</h3>
+
+<label for="">Genero</label>
+<input type="radio" name="genero" id="M"> Masculino
+<input type="radio" name="genero" id="F"> femenino
+<input type="radio" name="genero" id="O"> Otro
+<input type="txtOtro" type="text" class ="invisible">
+
+<br>
+<br>
+<label for="">Nivel Academico</label>
+
+<select name="" id="listNivel">
+<option value="1">Primaria</option>
+<option value="2">Secundaria</option>
+<option value="3">Universitario</option>
+<option value="4">Posgrado</option>
+</select>
+    
+</section>
+<br><br>
+<label for="">Acepto Terminos y condiciones</label>
+<input type="checkbox" name="" id="chkAcepto">
+<br><br>
+
+<button onclick="Registrar()">Registrar</button>
+
+
+</main>
+
+
+<footer>
+    <p>Todos los derechos reservaods</p>
+</footer>
+</body>
+</html>
